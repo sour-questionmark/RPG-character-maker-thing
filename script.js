@@ -1,1 +1,2 @@
 // JavaScript Document
+let name=[""];
