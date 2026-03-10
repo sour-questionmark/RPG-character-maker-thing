@@ -108,9 +108,12 @@ table {
 .info-container{
 	border: solid 2px green;
 	background-color: darkcyan;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	}
 	
 .button{
 	cursor:pointer;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	}
 	
-}
+
