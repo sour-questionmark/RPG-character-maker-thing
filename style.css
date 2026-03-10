@@ -114,6 +114,26 @@ table {
 .button{
 	cursor:pointer;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: red;
+	text-align: right
 	}
-	
+
+#title{
+	border: solid 2px green;
+	background-color: darkcyan;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	}
+
+#text{
+	border: solid 2px green;
+	background-color: darkcyan;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	}
+
+#img{
+	border: solid 2px green;
+	background-color: darkcyan;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	}
+
 
