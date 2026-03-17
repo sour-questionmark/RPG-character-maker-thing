@@ -106,8 +106,8 @@ table {
 }
 
 .info-container{
-	border: solid 2px green;
-	background-color: darkcyan;
+	border: solid 2px gold;
+	background-color: darkslateblue;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	}
 	
@@ -119,20 +119,20 @@ table {
 	}
 
 #title{
-	border: solid 2px green;
-	background-color: darkcyan;
+	border: solid 2px gold;
+	background-color: darkslateblue;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	}
 
 #text{
-	border: solid 2px green;
-	background-color: darkcyan;
+	border: solid 2px gold;
+	background-color: darkslateblue;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	}
 
 #img{
-	border: solid 2px green;
-	background-color: darkcyan;
+	border: solid 2px gold;
+	background-color: darkslateblue;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	}
 
