@@ -12,9 +12,25 @@
 		<div id="title" class="col-12 col-m-12">character maker</div>
 	</div>
 	
-	<div class="row">
-		<div id="text" class="col-5 col-m-12">tekst keuzes 
-		</div>
+	<!--<div class="row" id="add-character">
+		<div id="text" class="col-5 col-m-12">
+			<label for="fname">Name</label> <input type="text" id="fname" name="fname"><br><br>
+			<label for="fname">power</label> <input type="text" id="fname" name="fname"><br><br>
+			<label for="fname">role</label> <input type="text" id="fname" name="fname"><br><br>
+		</div> -->
+	
+	<div onClick="showAddCharacterContainer()">+</div>
+	
+	<div id="add-character-container" style="display:none">
+		<p>Name:<input type="text" id="add-character-name"></p>
+		<p>Power:<input type="text" id="add-character-power"></p>
+		<p>Role:<input type="text" id="add-character-role"></p>
+		<p>Image:<input type="file" id="add-character-picture-input"></p>
+		<img src="" height="200" id="add-character-picture">
+		<button onclick="submit-character()">SAVE</button>
+	</div>
+		
+		
 		<div id="img" class="col-7 col-m-12">afbeelding
 		</div>
 	</div>

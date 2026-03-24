@@ -128,7 +128,7 @@ table {
 	padding: 40px;
 	}
 
-#text{
+#add-character-container{
 	border: solid 1px gold;
 	background-color: #604569;
 	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
