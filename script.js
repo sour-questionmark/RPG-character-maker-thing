@@ -115,5 +115,36 @@ function deleteCharacter(character){
 	displayCharactersList();
 }
 	
+
+function showAddCharacterContainer() {
+	document.getElementById("add-character-container").style.display = "block";
+	const fileInput = document.getElementById("add-character-picture-input");
+	fileInput.addEventListener("change", previewFile);
+}
+function previewFile() {
+	const file = document.getElementById("add-character-picture-input").files[0];
+	const reader = new FileReader();
+
+	reader.addEventListener("load", () => {
+		// convert image file to base64 string
+		document.getElementById("add-character-picture").src = reader.result;
+	});
+	if (file) {
+		reader.readAsDataURL(file);
+	}
+}
+
+
+function saveCharacter(){
+	const name = document.getElementById("add-character-name").value;
+	const power = document.getElementById("add-character-power").value;
+	const role = document.getElementById("add-character-role").value;
+	const picture = document.getElementById("add-character-picture").src;
 	
-	
+	characters.push({
+		name: name,
+		role: "",
+		power: "",
+		picture: picture
+	})
+}
