@@ -60,7 +60,7 @@ table {
     float: left;
     width: 100%;
 	/* Ter demonstratie hebben kolommen een border, doe maar weg voor je eigen werk */
-	border: solid 1px grey;
+s
 }
 
 /* Voor MOBIEL */
@@ -112,13 +112,19 @@ table {
 	border-radius: 5px;
 	margin: 10px;
 	padding: 5px;
+	float: left;
+	height: 150px;
+	width:100%;
+	position: relative;
 	}
 	
 .button{
 	cursor:pointer;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	color: red;
-	text-align: right
+	position: absolute;
+	bottom: 0;
+	right: 0;
 	}
 
 #title{
@@ -146,4 +152,16 @@ table {
 body {
   color: white;
 background-color:#4C3632;
+}
+
+.img-container{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.img-container img{
+	width: 100px;
+	
+	
 }

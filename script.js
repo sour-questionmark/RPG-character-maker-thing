@@ -4,8 +4,8 @@ let characters =[{
 
 	id: 1,
 	power: 50,
-	name: "Eline",
-	role: "leerkracht",
+	name: "soraya",
+	role: "yuri enjoyer",
 	
 	}, {
 	
@@ -106,7 +106,7 @@ function createCharacterCard(character) {
 	
 }
 document.addEventListener("DOMContentLoaded", function(){
-	displayCharactersList();
+	//displayCharactersList();
 });
 
 
