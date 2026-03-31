@@ -1,10 +1,5 @@
 // JavaScript Document
 //onClick voor de dingste
-	id: 2,
-	role: "turk",
-	
-	}
-
 
 let characters =[
 ];
@@ -62,6 +57,14 @@ function createCharacterCard(character) {
 	pRole.appendChild(spanRoleLabel);
 	pRole.appendChild(spanRoleValue);
 	divInfoContainer.appendChild(pRole);
+	
+	const imgContainer = document.createElement("div");
+	imgContainer.className="img-container";
+	const img=document.createElement("img");
+	img.src=character.picture;
+	imgContainer.appendChild(img);
+	divInfoContainer.appendChild(imgContainer);
+	
 
 	const pButton = document.createElement("p");
 	pButton.className = "button";
@@ -73,11 +76,6 @@ function createCharacterCard(character) {
 	divInfoContainer.appendChild(pButton);
 
 	characterContainer.appendChild(divInfoContainer);
-
-	const imgContainer = document.createElement("div");
-	imgContainer.className="img-container";
-
-	characterContainer.appendChild(imgContainer);
 
 	container.appendChild(characterContainer);
 	
