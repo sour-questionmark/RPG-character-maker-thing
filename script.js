@@ -106,7 +106,7 @@ function createCharacterCard(character) {
 	
 }
 document.addEventListener("DOMContentLoaded", function(){
-	//displayCharactersList();
+	displayCharactersList();
 });
 
 
