@@ -64,7 +64,7 @@ s
 }
 
 /* Voor MOBIEL */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width : 1669px ){
     .col-m-1 {width: 8.33%;}
     .col-m-2 {width: 16.66%;}
     .col-m-3 {width: 25%;}
@@ -139,6 +139,7 @@ s
 	background-color: #604569;
 	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 	padding: 50px;
+	display: none;
 	}
 
 #img{
@@ -163,5 +164,14 @@ background-color:#4C3632;
 .img-container img{
 	width: 100px;
 	
+	
+}
+.form-row{
+	width: 200px;
+	margin-bottom: 10px;
+}
+
+#plus{
+	margin: 20px;
 	
 }
