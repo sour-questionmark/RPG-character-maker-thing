@@ -1,12 +1,35 @@
 // JavaScript Document
 //onClick voor de dingste
+let characters =[{
+
+	id: 1,
+	power: 50,
+	name: "soraya",
+	role: "yuri enjoyer",
+	
+	}, {
+	
 	id: 2,
+	power: 1000000000000,
+	name: "ferre",
+	role: "zwerver",
+	}, {
+
+	id: 3,
+	power: 67,
+	name: "vinn",
 	role: "turk",
+	
+	}, {
+
+	id: 4,
+	power: 4,
+	name: "maurice",
+	role: "koffie",
 	
 	}
 
 
-let characters =[
 ];
 
 console.log(characters);
@@ -103,6 +126,7 @@ function previewFile() {
 	const reader = new FileReader();
 
 	reader.addEventListener("load", () => {
+		// convert image file to base64 string
 		document.getElementById("add-character-picture").src = reader.result;
 	});
 	if (file) {
@@ -119,10 +143,8 @@ function saveCharacter(){
 	
 	characters.push({
 		name: name,
-		role: role,
-		power: power,
+		role: "",
+		power: "",
 		picture: picture
-	});
-	displayCharactersList();
-	console.log("if it didnt do anything just know the function itself GETS CALLED!!!");
+	})
 }
